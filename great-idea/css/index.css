@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
 	box-sizing: border-box;
-	padding: 0 20px;
+	padding: 0 30px;
 	margin: 0 auto;
 }
 
@@ -197,4 +197,70 @@ footer{
 }
 
 /* style the service page......... */
+.service-main{
+	font-size: 15px;
+}
+
+.service-head h1{
+	padding: 20px 5px;
+	margin: 2px;
+	font-size: 20px;
+}
+.service-head img{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.service-main{
+	margin: 20px 0;
+	padding: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	border-top: 1px solid black;
+}
+
+.box-sec{
+	margin: 20px;
+	padding: 20px;
+	width: 450px;
+	height: auto;
+	border: 1px solid black;
+	background-color: rgb(222, 224, 228);
+	border-radius: 5px;
+	/* box-sizing: border-box;
+	overflow: hidden; */
+}
+.box-sec p{
+	margin: 5px;
+}
+.box-sec a{
+	text-decoration: none;
+	margin: 5px;	
+	padding: 5px 25px;
+	color: black;
+	background: white;
+	border: 1px solid black;
+}
+
+.final-sec{
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.final-sec img{
+	flex-basis: 40%;
+}
+
+.box-final{
+	display: flex;
+	flex-direction: column;
+	margin: 20px 20px;
+}
+
+
+
 
