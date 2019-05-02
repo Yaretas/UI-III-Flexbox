@@ -236,29 +236,32 @@ footer{
 .box-sec p{
 	margin: 5px;
 }
-.box-sec a{
+.box-sec button{
 	text-decoration: none;
 	margin: 5px;	
 	padding: 5px 25px;
 	color: black;
 	background: white;
 	border: 1px solid black;
+	border-radius: 3px solid black;
 }
 
 .final-sec{
 	padding: 20px 0;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .final-sec img{
-	flex-basis: 40%;
+	flex-basis: 50%;
+	margin: 20px 20px;
 }
 
 .box-final{
 	display: flex;
 	flex-direction: column;
 	margin: 20px 20px;
+	padding: 2%;
 }
 
 
